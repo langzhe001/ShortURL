@@ -3,7 +3,7 @@
 # 介绍
 
 一个使用 Cloudflare Pages 创建的 URL 缩短器
-原项目[Github]()
+原项目[Github](https://github.com/HappyLeslieAlexander/ShortURL)
 
 ### 1.利用 Cloudflare Pages 部署
 
