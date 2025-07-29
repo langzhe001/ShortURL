@@ -3,6 +3,7 @@
 # 介绍
 
 一个使用 Cloudflare Pages 创建的 URL 缩短器
+原项目[Github]()
 
 ### 1.利用 Cloudflare Pages 部署
 
@@ -64,6 +65,3 @@ Content-Type: application/json
   "slug": "leslie"
 }
 
-## 审查
-
-暂时没有审查，后续可能会调整
