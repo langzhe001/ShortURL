@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="asset/img/favicon.png"  >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
     <title>短链生成器</title>
     <style>
       :root {
@@ -217,6 +218,10 @@
       <button :class="{ loading }" :disabled="loading || isValidated()" @click="submit($refs, $nextTick)">生成</button>
     </main>
     <footer>
+      基于CloudFlare Pages的短链接生成器<a href="" target="_blank"><i class="iconoir-github"></i></a><br/>
+      寰宇ShortUrl
+    </footer>
+    <!--<footer>
       基于Cloudflare的短链生成器<img src="https://cdn.jsdelivr.net/gh/HappyLeslieAlexander/PicGo01/Cloudflare.webp" width="80px" height="45px" alt="CloudFlare"> <br />
 
       <a href="https://t.me/Depressed_LeslieAlexander" target="_blank">Leslie Alexander</a> <br />
@@ -225,7 +230,7 @@
 
       <a href="https://t.me/LeslieGroup" target="_blank">Telegram Group</a> <br />
 
-    </footer>
+    </footer>-->
     <script src="asset/js/alpine.js"></script>
     <script>
       const app = {
